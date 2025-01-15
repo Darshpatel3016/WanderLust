@@ -1,0 +1,187 @@
+body {
+    padding-left: 6px;
+    font-family: "Plus Jakarta Sans", serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh !important;
+}
+
+.container {
+    flex: 1 !important;
+}
+
+/* h3 {
+    margin-left: 2.5rem;
+} */
+
+.all-list h3 {
+    margin-left: 2.5rem;
+}
+
+/* Navbar */
+
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+
+.nav-link {
+    color: #222222 !important;
+}
+
+.search-btn {
+    background-color: #fe424d !important;
+    color: #fff !important;
+    border-radius: 25px !important;
+    padding: 0 1rem 0 1rem !important; 
+}
+
+.search-btn i {
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.search-input {
+    border-radius: 25px !important;
+    padding: 0.5rem 2rem 0.5rem 2rem !important;
+    font-size: 0.9rem !important;
+}
+
+/* Footer */
+
+.f-info-links a {
+    text-decoration: none;
+    color: #222222;
+}
+
+
+.f-info-links a:hover {
+    text-decoration: underline;
+}
+
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.f-info-socials i {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+
+.f-info {
+    text-align: center;
+    display: flex;
+    height: 8rem;
+    margin-top: auto;
+    width: 100%;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+
+/* Cards */
+
+
+.listing-card {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    border: none !important;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p {
+    font-weight: 400 !important;
+}
+
+.listing-link {
+    text-decoration: none;
+}
+
+
+/* Card-Effect */
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/* New Page */
+
+.add-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+
+/* Edit Page */
+
+.edit-btn {
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+
+/* Show Page */
+
+.show-img {
+    height: 30vh;
+
+}
+
+.btns {
+    display: flex;
+}
+
+.show-card {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+
+/* Map */
+
+#map {
+    height: 400px;
+    width: 80vh;
+}
+
+
+/* TwMjZ2yuJk1E8wI6 */
+
+/* darshpatel03016 */
+/* dq4j1KY1Vz5CTlNV */
+
+/* mongodb+srv://darshpatel03016:<dq4j1KY1Vz5CTlNV>@cluster0.5tqp8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 */
