@@ -176,6 +176,9 @@ body {
 #map {
     height: 400px;
     width: 50vh;
+    display: flex;
+    align-item: center;
+    text-align: center;
 
 
 
