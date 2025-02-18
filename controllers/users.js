@@ -2,6 +2,7 @@ const User = require("../models/user");
 
 module.exports.home = (req, res) => {
     try {
+        console.log("Rendering home.ejs..")
         res.render("home");
     } catch (err) {
 
