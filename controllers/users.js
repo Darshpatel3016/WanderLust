@@ -1,4 +1,4 @@
-const User = require("./models/user");
+const User = require("../models/user");
 
 module.exports.home = (req, res) => {
     res.send("<h1>Welcome to Wanderlust</h1>");
