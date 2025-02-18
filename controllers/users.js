@@ -1,7 +1,7 @@
 const User = require("../models/user");
 
 module.exports.home = (req, res) => {
-  res.send("home.ejs");
+  res.render("home.ejs");
   // try {
   //     console.log("Rendering home.ejs..")
   //     res.render("home");
