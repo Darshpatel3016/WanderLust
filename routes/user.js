@@ -10,8 +10,8 @@ const userController = require("../controllers/users.js");
 
 //Home...............................................
 
-// router.route("/")
-//     .get(userController.home);
+router.route("/")
+    .get(userController.home);
 
 
 // Signup................................... 
