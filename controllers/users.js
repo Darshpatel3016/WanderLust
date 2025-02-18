@@ -1,7 +1,7 @@
 const User = require("../models/user");
 
 module.exports.home = (req, res) => {
-    res.render("views/home.ejs");
+    res.render("home.ejs");
 }
 
 module.exports.renderSignupForm = (req, res) => {
