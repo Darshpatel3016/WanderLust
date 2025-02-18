@@ -2,8 +2,6 @@ if (process.env.NODE_ENV != "production") {
     require('dotenv').config();
 }
 
-// console.log(process.env.SECRET);
-
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -73,11 +71,6 @@ const sessionOptions = {
     },
 };
 
-// app.get("/", (req, res) => {
-//     res.send("Hi, I am Root");
-// });
-
-
 app.use(session(sessionOptions));
 app.use(flash());
 
@@ -96,6 +89,9 @@ app.use((req, res, next) => {
     next();
 });
 
+app.get("/", (req, res) => {
+    res.render("home.ejs");
+})
 
 app.use("/listings", listingRouter);
 app.use("/listings/:id/reviews", reviewRouter);
@@ -110,7 +106,6 @@ app.all("*", (req, res, next) => {
 app.use((err, req, res, next) => {
     let { statusCode = 500, message = "Something went wrong....!!" } = err;
     res.status(statusCode).render("error.ejs", { message });
-    // res.status(statusCode).send(message);
 });
 
 
