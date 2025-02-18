@@ -1,19 +1,8 @@
 const User = require("../models/user");
 
-module.exports.home = (req, res) => {
-  res.render("home");
-  // try {
-  //     console.log("Rendering home.ejs..")
-  //     res.render("home");
-  // } catch (err) {
-
-  //     console.error("Error rendering home.ejs", err);
-  //     res.status(500).send("Internal Server Error");
-
-  //     // req.flash("error", e.message);
-  //     // res.redirect("/listings");
-  // }
-};
+// module.exports.home = (req, res) => {
+//   res.send("home.ejs");
+// };
 
 module.exports.renderSignupForm = (req, res) => {
   res.render("users/signup.ejs");
